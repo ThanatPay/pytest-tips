@@ -1,3 +1,4 @@
+[![Python application test with Github Actions](https://github.com/ThanatPay/pytest-tips/actions/workflows/test-ci.yml/badge.svg)](https://github.com/ThanatPay/pytest-tips/actions/workflows/test-ci.yml)
 # pytest-tips
 A primer of pytest
 
