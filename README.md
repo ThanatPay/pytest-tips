@@ -25,4 +25,4 @@ create Makefile and requirement to set what do you need
 `source requirements.txt` to set library that you need
 - after you run `make install` to install requirements library, you can check version of library to set requirements again for fix version by `pip freeze | less`
 
-you must be create build system by GitHub Actions to allow double check before deploy others environment or cloud platform
+you must be create build system by GitHub Actions to allow double check before drive into others environment or cloud platform
