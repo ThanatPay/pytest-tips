@@ -2,8 +2,7 @@
 # pytest-tips
 A primer of pytest
 
-## Continuous Integration (CI)
-The practice of automatically and frequently integrating code changes into a shared source code repository
+## Introduction to testing with pytest
 
 ### Start virtual environment
 Create virtual environment into an invisible directory inside your home directory that it's not going to be accidentally pushed into your GitHub repo
@@ -27,8 +26,7 @@ create Makefile `source Makefile` to set command for make
 create requirement to set what do you need`source requirements.txt` to set library that you need
 - after you run `make install` to install requirements library, you can check version of library `pip freeze | less` to set requirements again for fix version
 
-### Build system
+### CI system with pytest
 you must be create build system (GitHub Actions, AWS codebuild) to allow double check before drive into others environment or cloud platform
 
-## Continuous Delivery (CD)
-The process that continuous delivery stops short of automatic production deployment, while continuous deployment automatically releases the updates into the production environment
+## Invoking pytest
