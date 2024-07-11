@@ -7,7 +7,12 @@ test:
 	python -m pytest --nbval notebook.ipynb
 
 debug:
-	python -m pytest -vv --pdb # Debugger in invoked
+	# Debugger in invoked
+	python -m pytest -vv --pdb
+
+one-test:
+	# test only function test_my_name4
+	python -m pytest -vv tests/test_greeting.py::test_my_name4
 
 format:
 	black *.py
